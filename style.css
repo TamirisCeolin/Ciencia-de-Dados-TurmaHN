@@ -67,3 +67,8 @@ body {
     height: 3rem;
     margin-top: 2rem;
   }
+
+  span{
+    font-weight: bold;
+    color: var(--secundary-color);
+}
