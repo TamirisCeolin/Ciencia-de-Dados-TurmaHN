@@ -4,6 +4,7 @@
   --bg-color: #465468;
   --primary-color: #DDDDDD;
   --secundary-color: #f20b0b;
+  --color-text-numbers: #111010;
   --font: Grandstander;
 }
 
@@ -70,6 +71,6 @@ body {
 
   span{
     font-weight: bold;
-    color: var(--secundary-color);
+    color: var(--color-text-numbers);
     background-color: var(--secundary-color)
 }
