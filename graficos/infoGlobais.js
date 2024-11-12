@@ -17,12 +17,11 @@ async function visualizarInformacoesGlobais() {
     paragrafo.classList.add('graficos-container__texto');
     paragrafo.innerHTML = `No mundo com <span>${pessoasNoMundo} bilhões </span>  de pessoas, 
     cerca de <span>${trabalhadoresNoMundo} bilhões </span> fazem parte da força de trabalho global, 
-    e <span>${pessoasNecessitamTransporte} bilhões </span>  
-    delas dependem de transporte para chegar ao trabalho. Isso significa que, apenas 38% (=3/7,888) no mundo tem 
-    trabalho. Do total de pessoas no mundo 25% utilizam transporte e dos que 
-    trabalham 67% precisam de transporte. E dos que utilizam transporte, estes 
-    gastam <span>${dados.tempo_medio_deslocamento_para_trabalho} horas </span> e <span> ${minutos} minutos </span> do tempo do dia para deslocamento. Esse tempo, embora
-    pareça curto, simboliza a resiliência e busca por melhores oportunidades.`
+    e <span>${pessoasNecessitamTransporte} bilhões </span> delas dependem de transporte para chegar ao 
+    trabalho. <br> Do total de pessoas no mundo <span>${porcentagemTrabalhadores}% </span>25% utilizam 
+    transporte e estes gastam em média <span>${horas} horas </span> e <span> ${minutos} minutos </span> 
+    do tempo do dia para deslocamento. <br> Esse tempo, embora pareça curto, simboliza a resiliência e 
+    busca por melhores oportunidades.`
 
 
     const container = document.getElementById('graficos-container');
