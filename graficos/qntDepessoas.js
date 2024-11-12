@@ -1,5 +1,5 @@
 async function qntDepessoas() {
-    const url = 'https://raw.githubusercontent.com/silviosnjr/CienciaDeDados-CriandoGraficosDinamicosComJavaScript/refs/heads/Aula01/transporte/transporte-numero-tipos-locomocao.json'
+    const url = 'https://raw.githubusercontent.com/TamirisCeolin/Ciencia-de-Dados-TurmaHN/refs/heads/main/transportes-tipos-locomoao.json'
     const res = await fetch(url)
     const dados = await res.json()
     const nomeDoTransporte = Object.keys(dados)
