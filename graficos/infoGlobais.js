@@ -16,7 +16,7 @@ async function visualizarInformacoesGlobais() {
     const paragrafo = document.createElement('p');
     paragrafo.classList.add('graficos-container__texto');
     paragrafo.innerHTML = `No mundo com <span>${dados.total_pessoas_mundo} bilhões </span>  de pessoas, 
-    cerca de <span>${dados.total_trabalhadores_mundo} bilhões </span> fazem parte da força de trabalho global, 
+    cerca de <span>${trabalhadoresNoMundo} bilhões </span> fazem parte da força de trabalho global, 
     e <span>${dados.total_pessoas_que_necessitam_transporte_para_trabalho} bilhões </span>  
     delas dependem de transporte para chegar ao trabalho. Isso significa que, apenas 38% (=3/7,888) no mundo tem 
     trabalho. Do total de pessoas no mundo 25% utilizam transporte e dos que 
