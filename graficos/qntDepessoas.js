@@ -9,7 +9,10 @@ async function qntDepessoas() {
         {
           x: nomeDoTransporte,
           y: qntDepessoas,
-          type: 'bar'
+          type: 'bar',
+          marker: {
+            color: getComputedStyle(document.body).getPropertyValue('--primary-color')
+          }
         }
       ]
       
