@@ -11,7 +11,7 @@ async function qntDepessoas() {
           y: qntDepessoas,
           type: 'bar',
           marker: {
-            color: getComputedStyle(document.body).getPropertyValue('--primary-color')
+            color: getComputedStyle(document.body).getPropertyValue('--secundary-color')
           }
         }
       ]
